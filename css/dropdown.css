@@ -1,0 +1,64 @@
+ul 
+{
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+ul li 
+{
+  display: block;
+  position: relative;
+  float: left;
+  border:none solid #fff;
+}
+
+li ul 
+{
+  display: none;
+}
+
+ul li a 
+{
+  display: block;
+  background: #99CCFF;
+  text-decoration: none;
+  white-space: nowrap;
+  color: #ffffff;
+  font-size: 20px;
+  padding-right: 100px;
+  padding-top: 0px;
+}
+
+ul li a:hover 
+{
+  background: #99CCFF; 
+  color: #7AA3CC; 
+  font-size: 15px;
+  padding-right: 120px;
+}
+
+li:hover ul 
+{
+  display: block; 
+  position: absolute;
+}
+
+li:hover li 
+{
+  float: none;
+}
+
+li:hover a 
+{
+  background: ##99CCFF;
+}
+
+li:hover li a:hover 
+{
+  background: #99CCFF;
+}
+#drop-nav li ul li 
+{
+  border-top: 0px;
+}
